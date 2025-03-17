@@ -1,0 +1,16 @@
+{
+	{
+		a = 'a'
+		b = 'b'
+		c = 'a'
+		pc = 'a' > 'b'
+		result = 'a'
+	}
+	{
+		a = 'a'
+		b = 'b'
+		c = 'b'
+		pc = 'a' <= 'b'
+		result = 'b'
+	}
+}

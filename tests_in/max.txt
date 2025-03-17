@@ -1,0 +1,8 @@
+max(int a, int b, int c) : int {
+    if (a > b) {
+        c = a
+    } else {
+        c = b
+    }
+    return c
+}

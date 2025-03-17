@@ -1,0 +1,4 @@
+F(bool a, bool b): bool {
+    a = (true & a) | false
+    return a
+}

@@ -1,0 +1,6 @@
+F(bool a, bool b): bool {
+    a = true & a
+    b = false | b
+    a = a | (b & (!(true) | (true & false)))
+    return a
+}

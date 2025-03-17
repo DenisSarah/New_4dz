@@ -1,0 +1,5 @@
+F(int x, int y): int {
+	y = (x - 8) + y - (2+8)/5
+	x = y + x
+	return x
+}

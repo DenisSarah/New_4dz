@@ -1,0 +1,4 @@
+denis(int l) : int {
+    l = 239
+    return l
+}
